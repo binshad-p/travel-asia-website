@@ -3,6 +3,7 @@
 
 // emiartes
 import logo from "../public/logo.svg";
+import hero_bg from '../public/hero_bg.png'
 import logo_blue from '../public/logo-blue.svg'
 import home_bg from '../public/home-bg.png'
 import welcome_img1 from '../public/welcome_img1.png'
@@ -134,8 +135,11 @@ import process_4 from '../public/process_4.png'
 import about_us from '../public/about_us.png'
 import plane_up from '../public/plane_up.svg'
 import plane_down from '../public/plane_down.svg'
+import doodles from '../public/doodles.svg'
+import bird from '../public/bird.svg'
 export {
 logo,
+hero_bg,
 home_bg,
 logo_blue,
 welcome_img1,
@@ -267,4 +271,6 @@ service_cover_img6,
 about_us,
 plane_up,
 plane_down,
+doodles,
+bird
 };

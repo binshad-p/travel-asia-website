@@ -1,4 +1,4 @@
-import { home_bg } from "@/public";
+import { hero_bg,  } from "@/public";
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
@@ -9,16 +9,14 @@ const HeroSection = () => {
     <section className="relative flex flex-col items-start padding-x justify-center gap-8 h-[100vh] max-sm:gap-5 overflow-hidden">
       {/* Background Video */}
       <div className="absolute inset-0 w-full h-full z-0">
-        <video
-          src="/video/bgvideo.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="w-full h-full object-cover"
+        <Image
+          src={hero_bg}
+          alt="Hero Background" 
+          layout="fill"
+          objectFit="cover"
+          quality={100}
         />
         {/* Black Overlay */}
-        <div className="absolute inset-0 bg-black bg-opacity-50" />
       </div>
 
       {/* Content */}

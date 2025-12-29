@@ -27,7 +27,7 @@ const Home = () => {
       
       <SevenWonders />
       <PopularDestinations /> */}
-      {/* <ApplyVisa /> */}
+      <ApplyVisa />
       <OurPackages />
       <FeatureSection />
       {/* <div className="max-sm:hidden sm:max-lg:hidden">

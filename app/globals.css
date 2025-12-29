@@ -28,7 +28,7 @@ body{
 }
 
 .padding-x {
-  @apply px-[8rem]  max-2xl:px-[7rem]  lg:max-2xl:px-[5rem] sm:max-lg:px-[3rem] max-sm:px-[1rem]
+  @apply px-[8rem]  max-2xl:px-[7rem]  lg:max-2xl:px-[3rem] sm:max-lg:px-[3rem] max-sm:px-[1rem]
 }
 
 .padding-y {

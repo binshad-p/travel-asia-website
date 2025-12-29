@@ -52,7 +52,7 @@ const Header = () => {
 
   return (
     <div
-      className={`fixed top-0 left-0 w-full z-50 py-5 px-[7.5rem] lg:max-2xl:px-[5rem] flex justify-between items-center  border-b border-[#e8e8e836]  transition-colors duration-300 sm:max-lg:px-[3rem] max-sm:px-[1rem] ${
+      className={`fixed top-0 left-0 w-full z-50 py-5 px-[7.5rem] lg:max-2xl:px-[3rem] flex justify-between items-center  border-b border-[#e8e8e836]  transition-colors duration-300 sm:max-lg:px-[3rem] max-sm:px-[1rem] ${
         isScrolled ? "bg-[#fff] opacity-70" : "bg-transparent"
       }`}
     >
