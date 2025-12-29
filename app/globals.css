@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: var(--font-pt-serif), serif;
+
+}
+
+p{
+  @apply text-[#14151A]
+}
+
+:root {
+  --primary-color: #EE842C;
+  --secondary-color: #0E0E0E;
+  --light: #F0F5F2;
+}
+
+body{
+  @apply bg-[#fff]  overflow-x-hidden 
+ 
+}
+
+.padding-x {
+  @apply px-[8rem]  max-2xl:px-[7rem]  lg:max-2xl:px-[5rem] sm:max-lg:px-[3rem] max-sm:px-[1rem]
+}
+
+.padding-y {
+ @apply py-[7rem] lg:max-2xl:py-[4rem] sm:max-lg:py-[3rem] max-sm:py-[2rem]
+}
+
+.larger-screen {
+  @apply max-w-[1500px] mx-auto 
+}
+
+/* h1{
+  @apply tracking-tighter 
+}
+
+h2{
+  @apply tracking-tighter 
+} */
+
+
+path {
+  transition: d 2s ease-in-out;
+}
+
