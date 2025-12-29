@@ -20,11 +20,11 @@ const HeroSection = () => {
       </div>
 
       {/* Content */}
-      <p className="relative text-[#ffffffbb]  font-light text-left max-sm:text-sm w-[40%] z-10 mt-20">
+      <p className="relative text-[#ffffffbb]  font-light text-left max-sm:text-sm md:w-[40%] w-full z-10 mt-20">
         ELEVET YOUR TRAVEL JOURNY 
       </p>
 
-      <h1 className="relative text-[2.5rem] w-[40%] md:text-[3.5rem] lg:text-[4.25rem] xl:text-[80px] font-semibold text-left leading-[3rem] md:leading-[4rem] lg:leading-[5rem] xl:leading-[6rem] max-sm:text-[2rem] text-white  z-10">
+      <h1 className="relative text-[2.5rem] md:w-[40%] w-[75%]  md:text-[3.5rem] lg:text-[4.25rem] xl:text-[80px] font-semibold text-left leading-[3rem] md:leading-[4rem] lg:leading-[5rem] xl:leading-[6rem] max-sm:text-[2rem] text-white  z-10">
         Discover the World with 
         TravelAsia
       </h1>
@@ -41,7 +41,7 @@ const HeroSection = () => {
         </Link>
     
       </div>
-      <p className="relative text-[#ffffffbb]  font-light text-left max-sm:text-sm w-[40%] z-10">
+      <p className="relative text-[#ffffffbb]  font-light text-left max-sm:text-sm md:w-[40%] w-full  z-10">
         Explore breathtaking destinations, luxurious escapes, and unforgettable experiences. 
       </p>
 
