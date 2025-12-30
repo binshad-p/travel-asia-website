@@ -16,27 +16,27 @@ const ptSerif = PT_Serif({
 });
 
 export const metadata = {
-  title: "Emirates Travels | Tailored Travel Experiences Around the World",
+  title: "Travel Asia | Air Ticketing, Global Visa Assistance & Pilgrimage Services",
   description:
-    "At Emirates Travels, we create unforgettable journeys with expertly crafted travel packages. From adventure to relaxation, trust us for seamless planning, premium accommodations, and exceptional service.",
+    "Expert Air Ticketing, Global Visa Assistance, and Pilgrimage Services. Book flights, process visas worldwide, and complete Umrah & Hajj packages with Travel Asia.",
   keywords:
-    "Emirates Travels, travel agency Dubai, tailored travel packages, adventure travel, relaxation holidays, cultural tours, premium travel services, visa services, Umrah visa, passport assistance, travel planning, Emirates Tours & Travels",
-  author: "Emirates Travels",
+    "Travel Asia, air ticketing, flight booking, global visa assistance, visa services, visa processing, tourist visa, business visa, pilgrimage services, Umrah packages, Hajj packages, Umrah visa, travel agency, international flights, cheap air tickets, visa consultancy",
+  author: "Travel Asia",
   robots: "index, follow",
   og: {
-    title: "Emirates Travels | Explore the World with Tailored Travel Plans",
+    title: "Travel Asia | Air Ticketing, Visa Services & Pilgrimage Packages",
     description:
-      "Experience hassle-free travel with Emirates Travels. We offer personalized travel packages, visa services, Umrah assistance, and more across Dubai, India, and Saudi Arabia.",
-    image: logo, // Replace with actual image path
-    url: "https://www.emiratestravels.com", // Replace with your website URL
+      "Book flights worldwide, get hassle-free visa assistance, and embark on spiritual journeys with our Umrah & Hajj packages.",
+    image: logo,
+    url: "https://www.travelasia.com",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Emirates Travels | Exceptional Travel Experiences Worldwide",
+    title: "Travel Asia | Flight Bookings, Visa Assistance & Pilgrimage Tours",
     description:
-      "Travel the world with confidence. Emirates Travels provides tailored travel services, including flights, visas, and premium packages for all your travel needs.",
-    image: logo, // Replace with actual image path
+      "Air ticketing for all destinations, global visa processing, and complete Umrah & Hajj packages with expert support.",
+    image: logo,
   },
 };
 

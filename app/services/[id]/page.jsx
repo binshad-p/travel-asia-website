@@ -73,7 +73,8 @@ const Page = () => {
 
             <p className="text-2xl font-semibold mt-4">Need Help? Call Us</p>
             <p className="text-[#0A0322] font-medium text-lg">
-              +91 9746 511 022
+              +91 9995 099 221
+
             </p>
               </div>
           </div>

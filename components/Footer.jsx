@@ -17,8 +17,14 @@ const Footer = () => {
     <div className="padding-x p-16 bg-[#000] text-white ">
       <div className="grid grid-cols-5 gap-[4rem]  xl:max-[1450px]:grid-cols-5 lg:max-2xl:gap-[5rem] lg:max-2xl:grid-cols-2 sm:max-lg:grid-cols-2 sm:max-lg:gap-[4rem] max-sm:grid-cols-2 max-sm:gap-10">
         <div className="flex flex-col gap-8 max-sm:gap-4 col-span-2">
-           <Link href={"/"}>
-          <Image src={logo} alt="logo" width={150} height={60} className="cursor-pointer" />
+          <Link href={"/"}>
+            <Image
+              src={logo}
+              alt="logo"
+              width={150}
+              height={60}
+              className="cursor-pointer"
+            />
           </Link>
           <p className="text-white">
             We craft unforgettable travel experiences with expert planning,
@@ -57,17 +63,20 @@ const Footer = () => {
           <h4 className=" text-lg font-semibold">Contact Info </h4>
           <div className="flex flex-col gap-5 max-sm:gap-2 ">
             <p className="  min-w-max hover:underline duration-300 text-white">
-              +91 9746 511 022
+             +91 9995 099 221
             </p>
             <p className="  min-w-max hover:underline duration-300 text-white">
-              +91 9809 963 994{" "}
+              +966 568 581 104
             </p>
             <p className="  min-w-max hover:underline duration-300 text-white">
-              +91 8590 800 701{" "}
+              +971 525 252 789
             </p>
-            <p className="  min-w-max hover:underline duration-300 text-white">
-              mail.emiratestravels@gmail.com
-            </p>
+            <a
+              href="mailto:info@travelasia247.com"
+              className="min-w-max hover:underline duration-300 text-white"
+            >
+              info@travelasia247.com
+            </a>
           </div>
         </div>
       </div>

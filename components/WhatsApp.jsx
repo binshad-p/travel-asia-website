@@ -2,9 +2,9 @@ import React from 'react';
 import { BsWhatsapp } from "react-icons/bs";
 
 const Whatsapp = () => {
-  const phoneNumber = "919746511022"; // No '+' or spaces for WhatsApp API
+  const phoneNumber = "919995099221"; // No '+' or spaces for WhatsApp API
   const message = encodeURIComponent(
-    "Hi, I'm interested in booking with Emirates Travels. Please share more details about your travel packages."
+    "Hi, I'm interested in booking with Travel Asia. Please share more details about your travel packages."
   );
   const whatsappLink = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
 

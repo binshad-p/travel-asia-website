@@ -27,7 +27,7 @@ const ContactHero = () => {
 
       const templateParams = {
         from_name: data.full_name,
-        to_name: "Emirates Travels",
+        to_name: "Travel Asia",
         phone_number: data.phone_number,
         whatsapp_number:  data.whatsapp_number,
         message: data.message,
@@ -209,7 +209,7 @@ const ContactHero = () => {
           </div>
           <div className="flex flex-col gap-1">
             <p className="text-[#353635] text-2xl font-medium max-sm:text-xl">Email</p>
-            <p className="text-[#626965] text-lg max-sm:text-base">mail.emiratestravels@gmail.com</p>
+            <p className="text-[#626965] text-lg max-sm:text-base">info@travelasia247.com</p>
           </div>
         </div>
         <div className="flex items-start gap-4">
@@ -218,9 +218,9 @@ const ContactHero = () => {
           </div>
           <div className="flex flex-col gap-1">
             <p className="text-[#353635] text-2xl font-medium max-sm:text-xl">Phone number</p>
-            <p className="text-[#626965] text-lg max-sm:text-base">+91 9746 511 022 </p>
-            <p className="text-[#626965] text-lg max-sm:text-base">+91 9809 963 994 </p>
-            <p className="text-[#626965] text-lg max-sm:text-base">+91 8590 800 701</p>
+            <p className="text-[#626965] text-lg max-sm:text-base">+91 9995 099221 </p>
+            <p className="text-[#626965] text-lg max-sm:text-base">+966 568 581 104 </p>
+            <p className="text-[#626965] text-lg max-sm:text-base">+971 525 252 789</p>
           </div>
         </div>
         <div className="flex items-start gap-4">
@@ -230,13 +230,12 @@ const ContactHero = () => {
           <div className="flex flex-col gap-1">
             <p className="text-[#353635] text-2xl font-medium max-sm:text-xl">Office</p>
             <p className="text-[#626965] text-lg max-sm:text-base">
-              Palakkad - Kozhikode Hwy, Thazhekode West,
+              TravelAsia24/7 Pvt. Ltd. 2nd floor, Mashreq Trade Centre,
               <br className="lg:max-2xl:hidden" />
-              Near SBI Kerala 679341
-            </p>
-            <p className="text-[#626965] text-lg max-sm:text-base">
+ Calicut Road, Perinthalmanna, Kerala - 679322, India            </p>
+            {/* <p className="text-[#626965] text-lg max-sm:text-base">
               Branch : Olavakkode - Palakkad
-            </p>
+            </p> */}
           </div>
         </div>
 

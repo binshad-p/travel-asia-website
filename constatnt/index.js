@@ -155,47 +155,47 @@ export const testimonialData = [
 export const socialMediaData = [
   {
     name: "Instagram",
-    url: "",
+    url: "https://www.instagram.com/travelasia247/",
     icon: <FaInstagram size={24} color="white" />,
   },
   {
     name: "Facebook",
 
-    url: "",
+    url: "https://www.facebook.com/TravelAsia247/",
     icon: <FaFacebook size={24} color="white" />,
   },
-  {
-    name: "Youtube",
-    url: "",
-    icon: <FaYoutube size={24} color="white" />,
-  },
-  {
-    name: "Linkedin",
-    url: "",
-    icon: <FaLinkedin size={24} color="white" />,
-  },
+  // {
+  //   name: "Youtube",
+  //   url: "",
+  //   icon: <FaYoutube size={24} color="white" />,
+  // },
+  // {
+  //   name: "Linkedin",
+  //   url: "",
+  //   icon: <FaLinkedin size={24} color="white" />,
+  // },
 ];
 export const socialMediaDataFooter = [
   {
     name: "Instagram",
-    url: "",
+    url: "https://www.instagram.com/travelasia247/",
     icon: <FaInstagram size={24} />,
   },
   {
     name: "Facebook",
-    url: "",
+    url: "https://www.facebook.com/TravelAsia247/",
     icon: <FaFacebook size={24} />,
   },
-  {
-    name: "Youtube",
-    url: "",
-    icon: <FaYoutube size={24} />,
-  },
-  {
-    name: "Linkedin",
-    url: "",
-    icon: <FaLinkedin size={24} />,
-  },
+  // {
+  //   name: "Youtube",
+  //   url: "",
+  //   icon: <FaYoutube size={24} />,
+  // },
+  // {
+  //   name: "Linkedin",
+  //   url: "",
+  //   icon: <FaLinkedin size={24} />,
+  // },
 ];
 
 export const FAQData = [
